@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Barrier.cpp" />
+    <ClCompile Include="include\Transform.cpp" />
+    <ClCompile Include="PlusOneDrop.cpp" />
+    <ClCompile Include="ScreenTransitions.cpp" />
+    <ClCompile Include="src\Accelerator.cpp" />
+    <ClCompile Include="src\Brake.cpp" />
+    <ClCompile Include="src\Bush.cpp" />
+    <ClCompile Include="src\Car.cpp" />
+    <ClCompile Include="src\Checkpoint.cpp" />
+    <ClCompile Include="src\CheckpointBox.cpp" />
+    <ClCompile Include="src\Collider.cpp" />
+    <ClCompile Include="src\FinishLine.cpp" />
+    <ClCompile Include="src\HUD.cpp" />
+    <ClCompile Include="src\Lap.cpp" />
+    <ClCompile Include="src\LapHud.cpp" />
+    <ClCompile Include="src\LeaderboardEntry.cpp" />
+    <ClCompile Include="src\LevelEditor.cpp" />
+    <ClCompile Include="src\MiniMap.cpp" />
+    <ClCompile Include="src\MyVector3.cpp" />
+    <ClCompile Include="src\RacePosition.cpp" />
+    <ClCompile Include="src\ResourceManager.cpp" />
+    <ClCompile Include="src\KeyHold.cpp" />
+    <ClCompile Include="src\KeyPress.cpp" />
+    <ClCompile Include="src\Button.cpp" />
+    <ClCompile Include="src\CharacterInput.cpp" />
+    <ClCompile Include="src\CheckBox.cpp" />
+    <ClCompile Include="src\ControlInfo.cpp" />
+    <ClCompile Include="src\Credits.cpp" />
+    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\Gameplay.cpp" />
+    <ClCompile Include="src\GUI.cpp" />
+    <ClCompile Include="src\HorizontalSlider.cpp" />
+    <ClCompile Include="src\InputManager.cpp" />
+    <ClCompile Include="src\Label.cpp" />
+    <ClCompile Include="src\LevelLoader.cpp" />
+    <ClCompile Include="src\Licence.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\MainMenu.cpp" />
+    <ClCompile Include="src\Options.cpp" />
+    <ClCompile Include="src\Pause.cpp" />
+    <ClCompile Include="src\RadioButton.cpp" />
+    <ClCompile Include="src\rules.cpp" />
+    <ClCompile Include="src\SoundOptions.cpp" />
+    <ClCompile Include="src\Speedometer.cpp" />
+    <ClCompile Include="src\Splash.cpp" />
+    <ClCompile Include="src\SteeringWheelHUD.cpp" />
+    <ClCompile Include="src\Tile.cpp" />
+    <ClCompile Include="src\TileMap.cpp" />
+    <ClCompile Include="src\VerticalSlider.cpp" />
+    <ClCompile Include="src\VolumeKnob.cpp" />
+    <ClCompile Include="src\Widget.cpp" />
+    <ClCompile Include="src\Xbox360Controller.cpp" />
+    <ClCompile Include="TrackSelection.cpp" />
+    <ClCompile Include="Upgrades.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Barrier.h" />
+    <ClInclude Include="include\Accelerator.h" />
+    <ClInclude Include="include\Brake.h" />
+    <ClInclude Include="include\Bush.h" />
+    <ClInclude Include="include\Car.h" />
+    <ClInclude Include="include\Button.h" />
+    <ClInclude Include="include\CharacterInput.h" />
+    <ClInclude Include="include\CheckBox.h" />
+    <ClInclude Include="include\Checkpoint.h" />
+    <ClInclude Include="include\CheckpointBox.h" />
+    <ClInclude Include="include\Collider.h" />
+    <ClInclude Include="include\ControlInfo.h" />
+    <ClInclude Include="include\Credits.h" />
+    <ClInclude Include="include\FinishLine.h" />
+    <ClInclude Include="include\Game.h" />
+    <ClInclude Include="include\GameObject.h" />
+    <ClInclude Include="include\Gameplay.h" />
+    <ClInclude Include="include\GUI.h" />
+    <ClInclude Include="include\GUIGlobals.h" />
+    <ClInclude Include="include\HorizontalSlider.h" />
+    <ClInclude Include="include\HUD.h" />
+    <ClInclude Include="include\InputManager.h" />
+    <ClInclude Include="include\Label.h" />
+    <ClInclude Include="include\Lap.h" />
+    <ClInclude Include="include\LapHud.h" />
+    <ClInclude Include="include\LeaderboardEntry.h" />
+    <ClInclude Include="include\LevelEditor.h" />
+    <ClInclude Include="include\LevelLoader.h" />
+    <ClInclude Include="include\Licence.h" />
+    <ClInclude Include="include\MainMenu.h" />
+    <ClInclude Include="include\MiniMap.h" />
+    <ClInclude Include="include\MyVector3.h" />
+    <ClInclude Include="include\noiseutils\noiseutils.h" />
+    <ClInclude Include="include\Options.h" />
+    <ClInclude Include="include\Pause.h" />
+    <ClInclude Include="include\RacePosition.h" />
+    <ClInclude Include="include\RadioButton.h" />
+    <ClInclude Include="include\Rules.h" />
+    <ClInclude Include="include\SoundOptions.h" />
+    <ClInclude Include="include\Speedometer.h" />
+    <ClInclude Include="include\Splash.h" />
+    <ClInclude Include="include\SteeringWheelHUD.h" />
+    <ClInclude Include="include\Tile.h" />
+    <ClInclude Include="include\TileMap.h" />
+    <ClInclude Include="include\Transform.h" />
+    <ClInclude Include="include\VerticalSlider.h" />
+    <ClInclude Include="include\VolumeKnob.h" />
+    <ClInclude Include="include\Widget.h" />
+    <ClInclude Include="include\ResourceManager.h" />
+    <ClInclude Include="include\KeyHold.h" />
+    <ClInclude Include="include\KeyPress.h" />
+    <ClInclude Include="PlusOneDrop.h" />
+    <ClInclude Include="ScreenTransitions.h" />
+    <ClInclude Include="TrackSelection.h" />
+    <ClInclude Include="Upgrades.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ASSETS\YAML\file1.yaml" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{87E223A9-09BB-43A6-BD05-DB32C34DAD6E}</ProjectGuid>
+    <RootNamespace>RedBadger</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(GLEW_SDK)/include;$(NOISE_SDK)/include;$(SFML_SDK)/include;.\include\;.</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(GLEW_SDK)\lib;$(SFML_SDK)\lib;.\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32.lib;glew32s.lib;sfml-graphics-d.lib;sfml-audio-d.lib;sfml-system-d.lib;sfml-window-d.lib;sfml-network-d.lib;OpenGL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(NOISE_SDK)/include;$(SFML_SDK)/include;.\include\;.</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SFML_SDK)\lib;.\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

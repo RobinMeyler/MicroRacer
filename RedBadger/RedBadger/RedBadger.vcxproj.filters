@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <ClCompile Include="src\LeaderboardEntry.cpp">
+      <Filter>Source\GUICpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyVector3.cpp">
+      <Filter>Source\ExtraLibCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MyVector3.cpp">
+      <Filter>Source\ExtraLibCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="include\Transform.cpp">
+      <Filter>Source\ExtraLibCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source\ExtraLibCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tile.cpp">
+      <Filter>Source\Tiles.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TileMap.cpp">
+      <Filter>Source\Tiles.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bush.cpp">
+      <Filter>Source\Tiles.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VolumeKnob.cpp">
+      <Filter>Source\GUICpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Accelerator.cpp">
+      <Filter>Source\CarCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Brake.cpp">
+      <Filter>Source\CarCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Car.cpp">
+      <Filter>Source\CarCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Checkpoint.cpp">
+      <Filter>Source\RaceCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CheckpointBox.cpp">
+      <Filter>Source\RaceCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Collider.cpp">
+      <Filter>Source\ExtraLibCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FinishLine.cpp">
+      <Filter>Source\RaceCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Lap.cpp">
+      <Filter>Source\RaceCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LapHud.cpp">
+      <Filter>Source\RaceCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LevelEditor.cpp">
+      <Filter>Source\RaceCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MiniMap.cpp">
+      <Filter>Source\RaceCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RacePosition.cpp">
+      <Filter>Source\RaceCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Speedometer.cpp">
+      <Filter>Source\CarCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HUD.cpp">
+      <Filter>Source\RaceCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SteeringWheelHUD.cpp">
+      <Filter>Source\RaceCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Upgrades.cpp">
+      <Filter>Source\ScreensCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Barrier.cpp">
+      <Filter>Source\RaceCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackSelection.cpp">
+      <Filter>Source\ScreensCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PlusOneDrop.cpp">
+      <Filter>Source\ExtraLibCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenTransitions.cpp">
+      <Filter>Source\GUICpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rules.cpp">
+      <Filter>Source\ScreensCpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Button.cpp">
+      <Filter>Source\GUICpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CharacterInput.cpp">
+      <Filter>Source\GUICpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CheckBox.cpp">
+      <Filter>Source\GUICpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUI.cpp">
+      <Filter>Source\GUICpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Label.cpp">
+      <Filter>Source\GUICpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HorizontalSlider.cpp">
+      <Filter>Source\GUICpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Widget.cpp">
+      <Filter>Source\GUICpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VerticalSlider.cpp">
+      <Filter>Source\GUICpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RadioButton.cpp">
+      <Filter>Source\GUICpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ControlInfo.cpp">
+      <Filter>Source\ScreensCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Credits.cpp">
+      <Filter>Source\ScreensCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Gameplay.cpp">
+      <Filter>Source\ScreensCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Licence.cpp">
+      <Filter>Source\ScreensCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MainMenu.cpp">
+      <Filter>Source\ScreensCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Options.cpp">
+      <Filter>Source\ScreensCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Pause.cpp">
+      <Filter>Source\ScreensCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SoundOptions.cpp">
+      <Filter>Source\ScreensCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Splash.cpp">
+      <Filter>Source\ScreensCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputManager.cpp">
+      <Filter>Source\ExtraLibCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KeyHold.cpp">
+      <Filter>Source\ExtraLibCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KeyPress.cpp">
+      <Filter>Source\ExtraLibCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LevelLoader.cpp">
+      <Filter>Source\ExtraLibCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputManager.cpp">
+      <Filter>Source Files\ExtraLibcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ResourceManager.cpp">
+      <Filter>Source\ExtraLibCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Xbox360Controller.cpp">
+      <Filter>Source\ExtraLibCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KeyPress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\ControlInfo.h">
+      <Filter>Header\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Gameplay.h">
+      <Filter>Header\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Credits.h">
+      <Filter>Header\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Licence.h">
+      <Filter>Header\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MainMenu.h">
+      <Filter>Header\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Options.h">
+      <Filter>Header\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Pause.h">
+      <Filter>Header\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SoundOptions.h">
+      <Filter>Header\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Splash.h">
+      <Filter>Header\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Button.h">
+      <Filter>Header\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CharacterInput.h">
+      <Filter>Header\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CheckBox.h">
+      <Filter>Header\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUI.h">
+      <Filter>Header\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUIGlobals.h">
+      <Filter>Header\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HorizontalSlider.h">
+      <Filter>Header\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Label.h">
+      <Filter>Header\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RadioButton.h">
+      <Filter>Header\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VerticalSlider.h">
+      <Filter>Header\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Widget.h">
+      <Filter>Header\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameObject.h">
+      <Filter>Header\ExtraLib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InputManager.h">
+      <Filter>Header\ExtraLib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KeyHold.h">
+      <Filter>Header\ExtraLib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\KeyPress.h">
+      <Filter>Header\ExtraLib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MyVector3.h">
+      <Filter>Header\ExtraLib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ResourceManager.h">
+      <Filter>Header\ExtraLib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Transform.h">
+      <Filter>Header\ExtraLib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LeaderboardEntry.h">
+      <Filter>Header\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Car.h">
+      <Filter>Header\Car</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Game.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LevelLoader.h">
+      <Filter>Header\ExtraLib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Accelerator.h">
+      <Filter>Header\Car</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Brake.h">
+      <Filter>Header\Car</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Speedometer.h">
+      <Filter>Header\Car</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Collider.h">
+      <Filter>Header\ExtraLib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LevelEditor.h">
+      <Filter>Header\ExtraLib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MiniMap.h">
+      <Filter>Header\ExtraLib</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VolumeKnob.h">
+      <Filter>Header\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Bush.h">
+      <Filter>Header\Tiles.h</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tile.h">
+      <Filter>Header\Tiles.h</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TileMap.h">
+      <Filter>Header\Tiles.h</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Checkpoint.h">
+      <Filter>Header\Race</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CheckpointBox.h">
+      <Filter>Header\Race</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FinishLine.h">
+      <Filter>Header\Race</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HUD.h">
+      <Filter>Header\Race</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Lap.h">
+      <Filter>Header\Race</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LapHud.h">
+      <Filter>Header\Race</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RacePosition.h">
+      <Filter>Header\Race</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SteeringWheelHUD.h">
+      <Filter>Header\Race</Filter>
+    </ClInclude>
+    <ClInclude Include="Upgrades.h">
+      <Filter>Header\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="include\noiseutils\noiseutils.h">
+      <Filter>Header\ExtraLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Barrier.h">
+      <Filter>Header\Race</Filter>
+    </ClInclude>
+    <ClInclude Include="PlusOneDrop.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackSelection.h">
+      <Filter>Header\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenTransitions.h">
+      <Filter>Header\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Rules.h">
+      <Filter>Header\Screens</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{a8fcabcf-f6b5-4322-9f0f-b152d2a50c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{0013fdc0-e31e-4fd6-9a7e-56ebf6456686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Screens">
+      <UniqueIdentifier>{1450499d-0a79-43e2-b9e6-5580662444ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ScreensCpp">
+      <UniqueIdentifier>{ae85b8af-b3fe-4550-92c3-b570d13b9c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ExtraLibCpp">
+      <UniqueIdentifier>{27cff7e1-f064-4eed-9ca4-9948b8e1e309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GUICpp">
+      <UniqueIdentifier>{fcf815b9-beb3-4ba6-9e9f-ee886e67780b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\GUI">
+      <UniqueIdentifier>{15361cd0-6a1f-4f99-a817-b9c33e20ff81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\ExtraLib">
+      <UniqueIdentifier>{5f38c278-4c63-41ea-8650-dafee1ca4045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Tiles.h">
+      <UniqueIdentifier>{49b51b9a-f31a-46ca-82c5-6474c5485715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Tiles.cpp">
+      <UniqueIdentifier>{5e2ba61a-e6ef-40c2-91e2-78f0d56d10a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Car">
+      <UniqueIdentifier>{c44474db-2809-4347-a895-10a27c5152f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Race">
+      <UniqueIdentifier>{27d34c41-2953-40d6-aae8-cef86facf1f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CarCpp">
+      <UniqueIdentifier>{8e92050b-3f5a-4c67-b117-5450d5421df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\RaceCpp">
+      <UniqueIdentifier>{cb416381-e1f5-4709-aba6-2fe3d0954054}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ASSETS\YAML\file1.yaml">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,76 @@
+Textures:
+   SoundOptionsBackGround: {file: ./ASSETS/IMAGES/background.jpg}
+   buttonTextureOne: {file: ./ASSETS/IMAGES/template (6).png}
+   volumeKnob: {file: ./ASSETS/IMAGES/knob-png-2.png}
+   dirtRoadSpriteSheet: {file: ./ASSETS/IMAGES/spritesheetDirtRoad.png}
+   variousAssetsSpriteSheet: {file: ./ASSETS/IMAGES/Car Racing Game Tileset.png}
+   raisedRoad: {file: ./ASSETS/IMAGES/RaisedRoadBrown.png}
+   iceRoad: {file: ./ASSETS/IMAGES/WaterRoadBrown.png}
+   carOne: {file: ASSETS/IMAGES/Cars/car1Blue.png} 
+   carTwo: {file: ASSETS/IMAGES/Cars/car2.png} 
+   carThree: {file: ASSETS/IMAGES/Cars/car3.png} 
+   carFour: {file: ASSETS/IMAGES/Cars/car4.png} 
+   screenCurtain: {file: ASSETS/IMAGES/ScreenCurtain.png} 
+   logo: {file: ASSETS/IMAGES/redbadger.png} 
+   clouds: {file: ASSETS/IMAGES/Licence/clouds.png} 
+   mountain: {file: ASSETS/IMAGES/Licence/mountain.png} 
+   road: {file: ASSETS/IMAGES/Licence/road.png} 
+   sky: {file: ASSETS/IMAGES/Licence/sky.png} 
+   tree: {file: ASSETS/IMAGES/Licence/tree.png} 
+   carLicence1: {file: ASSETS/IMAGES/Licence/1.png} 
+   carLicence2: {file: ASSETS/IMAGES/Licence/2.png} 
+   carLicence3: {file: ASSETS/IMAGES/Licence/3.png} 
+   carLicence4: {file: ASSETS/IMAGES/Licence/4.png} 
+   logoGame: {file: ASSETS/IMAGES/Licence/mm_logo.png} 
+   buttonA: {file: ASSETS/IMAGES/Controller/360_A.png} 
+   carOneGreen: {file: ./ASSETS/IMAGES/Cars/car1Green.png}
+   carOneInferno: {file: ./ASSETS/IMAGES/Cars/car1RedYellow.png}
+
+   carOneLarge: {file: ./ASSETS/IMAGES/Cars/carLargeBlue.png}
+   carOneLargeGreen: {file: ./ASSETS/IMAGES/Cars/carLargeGreen.png}
+   carOneLargeInferno: {file: ./ASSETS/IMAGES/Cars/carLargeInferno.png}
+   plusOneDrop: {file: ./ASSETS/IMAGES/plusOneDrop.png}
+   miniMap: {file: ./ASSETS/IMAGES/FreshMiniMap.PNG}
+   grass: {file: ./ASSETS/IMAGES/land_grass04.png}
+   snow: {file: ./ASSETS/IMAGES/Snow2.png}
+   snowTreeTile: {file: ./ASSETS/IMAGES/SnowTreeTile.png}
+   snowTree: {file: ./ASSETS/IMAGES/SnowTree.png}
+   bigRedTent: {file: ./ASSETS/IMAGES/Objects/tent_red_large.png}
+   redTent: {file: ./ASSETS/IMAGES/Objects/tent_red.png}
+   XboxA: {file: ./ASSETS/IMAGES/Athick.png}
+   XboxRT: {file: ./ASSETS/IMAGES/RTthick.png}
+   XboxLT: {file: ./ASSETS/IMAGES/LTthick.png}
+   XboxLS: {file: ./ASSETS/IMAGES/LSthick.png}
+   finishLine: {file: ./ASSETS/IMAGES/Dirt road/FinishLine.png}
+   menuWheel: {file: ./ASSETS/IMAGES/wheel1Trans.png}
+   menuBackground: {file: ./ASSETS/IMAGES/carBackground.jpg}
+   border: {file: ./ASSETS/IMAGES/border.png}
+   bridgeWall: {file: ./ASSETS/IMAGES/BidgeWall.png}
+   backCar: {file: ./ASSETS/IMAGES/NewBackOfCar.png}
+   particle: {file: ./ASSETS/IMAGES/particle.png}
+   upgradeBackGround: {file: ./ASSETS/IMAGES/supercharged-background-full.jpg}
+   greenBar: {file: ./ASSETS/IMAGES/Bars/greenBar.png}
+   orangeBar: {file: ./ASSETS/IMAGES/Bars/orangeBar.png}
+   redBar: {file: ./ASSETS/IMAGES/Bars/redBar.png}
+
+Fonts:
+   speed: {file: ./ASSETS/FONTS/Speed Grams.otf}
+   digital: {file: ./ASSETS/FONTS/digital-7.ttf}
+Sounds:
+   opening: {file: ./ASSETS/SOUNDS/selectMenu.ogg}
+   splash: {file: ./ASSETS/SOUNDS/F1Sound.ogg}
+   race: {file: ./ASSETS/SOUNDS/marioTrack.ogg}
+   fallBehind: {file: ./ASSETS/SOUNDS/toadBad.ogg}
+   pullAhead: {file: ./ASSETS/SOUNDS/toadYahoo.ogg}
+   finalLap: {file: ./ASSETS/SOUNDS/FinalLap.ogg}
+   lap: {file: ./ASSETS/SOUNDS/LapComplete.ogg}
+   wheelTurn: {file: ./ASSETS/SOUNDS/WheelRotate.ogg}
+   confirm: {file: ./ASSETS/SOUNDS/ConfirmSelection.ogg}
+   back: {file: ./ASSETS/SOUNDS/ClickDeep.ogg}
+   moveSelection: {file: ./ASSETS/SOUNDS/ClickHigh.ogg}
+   finish: {file: ./ASSETS/SOUNDS/RaceFinished.ogg}
+   result: {file: ./ASSETS/SOUNDS/RaceResults.ogg}
+
+Map: [0,0,0,18,0,0,0,0,0,0,0,0,0,0,0,7,0,0,7,0,7,0,7,0,0,0,0,0,0,0,2,9,3,3,3,3,4,7,0,0,0,0,0,7,1,0,0,0,0,0,1,7,0,7,0,0,0,0,6,3,3,3,3,3,8,3,3,4,7,0,0,7,0,0,7,0,18,0,1,0,0,1,0,0,0,0,2,3,4,0,0,0,1,0,0,1,7,0,0,7,1,0,6,3,3,3,5,0,0,1,0,0,0,0,11,12,13,0,0,0,0,0,0,1,7,0,0,7,14,15,16,0,0,0,0,0,0,1,0,0,0,0,7,0,1,0,0,0,0,0,0,1,7,0,0,0,0,7,6,3,3,3,3,3,3,5,0,0,0,0,0,0,7,0,7,0,7,0,7,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+
+ 
